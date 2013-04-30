@@ -1,0 +1,47 @@
+﻿@*add by hz page*@
+@model CheckoutCompletedModel
+@using Nop.Core.Domain.Orders;
+@using Nop.Web.Models.Checkout;
+@using Nop.Web.Models.Common;
+@{
+    Layout = "~/Views/Shared/_Root.cshtml";
+
+    //title
+    Html.AddTitleParts(T("PageTitle.Checkout").Text);
+}
+<div class="page checkout-page">
+    <div class="page-title">
+        <h1>@T("Checkout.ThankYou")</h1>
+    </div>
+    <div class="page-body checkout-data">
+        <div class="order-completed">
+            @Html.Widget("mobile_checkout_completed_top")
+            <div class="body">
+              @*add by hz*@
+                @for (int i = 0; i < Model.CheckoutStoreOrders.Count(); i++)
+                {
+                    <div class="CheckoutCompletedStoreTitle">
+                      <h1>  @Model.CheckoutStoreOrders[i].Store.Name</h1>
+                      <p class="CheckoutCompletedStoreDescription">
+                        @Model.CheckoutStoreOrders[i].Store.Description
+                      </p>
+                    </div>
+                    <strong>
+                        @T("Checkout.YourOrderHasBeenSuccessfullyProcessed")</strong>
+                    <p>
+                        @T("Checkout.OrderNumber"):  @Model.CheckoutStoreOrders[i].OrderId
+                    </p>
+                    <p>
+                        <a href="@Url.RouteUrl("OrderDetails", new { orderID = Model.CheckoutStoreOrders[i].OrderId })">@T("Checkout.PlacedOrderDetails")</a>
+                    </p>
+                         <hr />
+                }	
+                @*end by hz*@
+            </div>
+            <div class="select-button">
+                <a href="@Url.RouteUrl("HomePage")" data-role="button">@T("Checkout.Continue")</a>
+            </div>
+            @Html.Widget("mobile_checkout_completed_bottom")
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+﻿.dir-ltr { direction:ltr; }
+.store-page,.store-list-page{}
+.store-list-page .page-title,.store-page .page-title{border-bottom:0 none;}
+.store-page .store-description{color:#555;font-size:1.1em;}
+.store-grid{margin-right:auto;margin-left:auto;width:auto;margin-bottom:15px;}
+.store-grid a{color:#555;font-size: 1.2em;font-weight: 700;}
+.store-grid .item-box{float: right;text-align:center;vertical-align:text-top;}
+.store-grid .store-item{text-align:center;margin:10px;width:145px;height:180px;border: 1px solid #eee;}
+.store-grid .store-item .man-title{text-align:center;font-weight:700;font-size:.9em;display:block;overflow:hidden;height:1.8em;padding:5px;}
+.store-grid .store-item .picture{text-align:center;padding:10px 0;}
+
+.branch-grid{margin-right:auto;margin-left:auto;width:auto;margin-bottom:15px;margin-top:15px;}
+.branch-grid h2 {}
+.branch-grid a{color:#555;font-size: 12px;}
+.branch-grid .item-box{float: right;text-align:right;vertical-align:text-top;}
+.branch-grid .branch-item{text-align:right;margin:10px;width:200px;height:180px;border: 1px solid #808080;padding:0 5px 0 5px;}
+.branch-grid .branch-item .man-title{text-align:center;font-weight:700;font-size:14px;display:block;overflow:hidden;height:1.8em;padding:5px;}
+.branch-grid .branch-item .picture{text-align:center;padding:10px 0;}
+.branch-grid .branch-item .branch-address{float:right;}
+.branch-grid .branch-item .branch-google-address{float:left;}
+.branch-grid .branch-item .branch-phone{margin-top:7px;}
+.branch-grid .branch-item .branch-phone .title{font-weight:700;float:right; min-width:30px;}
+.branch-grid .branch-item .branch-phone .number{direction:ltr; float:right;}
+.branch-grid .branch-item .branch-web{text-align:center; margin-top:7px}
+
+.product-details-page .stores{color:#555;margin-bottom:.3em;font-size:1.1em;}
+
+/*ADD BY HZ*/
+.store-branches	{ line-height:22px}
+.store-branches h2 { font-size:13px; font-style:italic; }	
+.store-branch { padding-right:20px}	
+.store-branch h4 { margin-top:5px; color:#f93}	
+.store-branch a { color:Gray;}	
+.store-branch a:hover { color:Black;}	
+.store-description {color:#555;font-size:1.1em;float:right;}	
+.store-description hr { margin:5px 0 5px 0; }	
+.store-image { float:left}

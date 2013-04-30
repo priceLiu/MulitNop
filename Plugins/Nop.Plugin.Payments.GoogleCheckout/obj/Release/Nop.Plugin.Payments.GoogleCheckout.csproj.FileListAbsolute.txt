@@ -1,0 +1,4 @@
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Payments.GoogleCheckout\Description.txt
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Payments.GoogleCheckout\Nop.Plugin.Payments.GoogleCheckout.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Payments.GoogleCheckout\obj\Release\Nop.Plugin.Payments.GoogleCheckout.csprojResolveAssemblyReference.cache
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Payments.GoogleCheckout\obj\Release\Nop.Plugin.Payments.GoogleCheckout.dll

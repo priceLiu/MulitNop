@@ -1,0 +1,6 @@
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Description.txt
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll.config
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.XmlSerializers.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Release\Nop.Plugin.Shipping.Fedex.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Release\Nop.Plugin.Shipping.Fedex.XmlSerializers.dll

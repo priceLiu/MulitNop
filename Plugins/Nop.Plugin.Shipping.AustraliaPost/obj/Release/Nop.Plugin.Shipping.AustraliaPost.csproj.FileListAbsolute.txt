@@ -1,0 +1,4 @@
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Release\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Release\Nop.Plugin.Shipping.AustraliaPost.dll
