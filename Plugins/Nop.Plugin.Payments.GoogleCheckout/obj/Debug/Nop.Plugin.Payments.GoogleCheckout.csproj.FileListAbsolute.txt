@@ -1,0 +1,6 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.GoogleCheckout\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.GoogleCheckout\Nop.Plugin.Payments.GoogleCheckout.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.GoogleCheckout\Nop.Plugin.Payments.GoogleCheckout.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.GoogleCheckout\obj\Debug\Nop.Plugin.Payments.GoogleCheckout.csprojResolveAssemblyReference.cache
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.GoogleCheckout\obj\Debug\Nop.Plugin.Payments.GoogleCheckout.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.GoogleCheckout\obj\Debug\Nop.Plugin.Payments.GoogleCheckout.pdb

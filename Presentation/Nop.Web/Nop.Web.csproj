@@ -1274,6 +1274,7 @@
     <Content Include="Content\samples\product_SonyCamcoder.jpeg" />
     <Content Include="Content\samples\product_Sunglasses.jpg" />
     <Content Include="Content\samples\product_wow.jpeg" />
+    <Content Include="default.html" />
     <Content Include="ErrorPage.htm" />
     <Content Include="FileNotFound.htm" />
     <Content Include="Global.asax" />
@@ -1309,10 +1310,12 @@
     <Content Include="Scripts\2012.2.607\telerik.upload.min.js" />
     <Content Include="Scripts\2012.2.607\telerik.window.min.js" />
     <Content Include="Scripts\fileuploader.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.10.0.js" />
     <Content Include="Scripts\jquery-ui-1.10.0.min.js" />
     <Content Include="Scripts\jquery.mobile-1.2.0.js" />
     <Content Include="Scripts\jquery.mobile-1.2.0.min.js" />
+    <Content Include="Scripts\jquery.tmailsider.js" />
     <Content Include="Scripts\public.ajaxcart.js" />
     <Content Include="Scripts\public.accordion.js" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
@@ -1322,6 +1325,7 @@
     <Content Include="Scripts\public.onepagecheckout.js" />
     <Content Include="Scripts\public.common.js" />
     <Content Include="Scripts\slimbox2.js" />
+    <Content Include="tdefault.html" />
     <Content Include="Themes\DefaultClean\Content\hzStyles.css" />
     <Content Include="Themes\DefaultClean\Content\hzStyles.rtl.css" />
     <Content Include="Themes\DefaultClean\Content\ie6.css" />
@@ -1760,6 +1764,7 @@
     <Content Include="Views\Vendor\VendorNavigation.Mobile.cshtml" />
     <Content Include="Views\Vendor\VendorTemplate.ProductsInGridOrLines.cshtml" />
     <Content Include="Views\Vendor\VendorTemplate.ProductsInGridOrLines.Mobile.cshtml" />
+    <Content Include="Views\Home\副本 Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

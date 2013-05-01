@@ -1,0 +1,7 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb

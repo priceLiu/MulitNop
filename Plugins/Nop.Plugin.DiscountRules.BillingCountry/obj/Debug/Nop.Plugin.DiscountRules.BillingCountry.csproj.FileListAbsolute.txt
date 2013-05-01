@@ -1,0 +1,6 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.BillingCountry\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.BillingCountry\Nop.Plugin.DiscountRules.BillingCountry.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.BillingCountry\Nop.Plugin.DiscountRules.BillingCountry.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.BillingCountry\obj\Debug\Nop.Plugin.DiscountRules.BillingCountry.csprojResolveAssemblyReference.cache
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.BillingCountry\obj\Debug\Nop.Plugin.DiscountRules.BillingCountry.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.BillingCountry\obj\Debug\Nop.Plugin.DiscountRules.BillingCountry.pdb

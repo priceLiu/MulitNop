@@ -1,0 +1,5 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb

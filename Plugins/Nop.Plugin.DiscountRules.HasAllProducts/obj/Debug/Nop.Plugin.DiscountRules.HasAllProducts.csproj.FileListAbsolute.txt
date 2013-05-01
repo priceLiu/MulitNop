@@ -1,0 +1,5 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.HasAllProducts\obj\Debug\Nop.Plugin.DiscountRules.HasAllProducts.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.HasAllProducts\obj\Debug\Nop.Plugin.DiscountRules.HasAllProducts.pdb

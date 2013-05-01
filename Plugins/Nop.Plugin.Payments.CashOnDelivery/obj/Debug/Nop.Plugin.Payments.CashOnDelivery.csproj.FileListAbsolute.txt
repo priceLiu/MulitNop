@@ -1,0 +1,5 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.CashOnDelivery\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.CashOnDelivery\Nop.Plugin.Payments.CashOnDelivery.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.CashOnDelivery\Nop.Plugin.Payments.CashOnDelivery.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.CashOnDelivery\obj\Debug\Nop.Plugin.Payments.CashOnDelivery.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.CashOnDelivery\obj\Debug\Nop.Plugin.Payments.CashOnDelivery.pdb

@@ -1,0 +1,1013 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script src="/scripts/tmail.main.js" async="" mod_name="inf-main"></script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>jquery左侧导航菜单仿天猫左侧导航分类列表|jsfoot 网页特效</title>
+<meta content="jquery左侧导航菜单仿天猫左侧导航分类列表" name="keywords">
+<meta content="jquery特效,js特效,flash特效,div+css教程,html5教程" name="description">
+<style>
+    @charset "utf-8";
+/* reset */
+*{margin:0;padding:0;list-style-type:none;}
+a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{outline:0;}
+label{cursor:pointer;}
+img{vertical-align:middle;}
+table{empty-cells:show;border-collapse:collapse;border-spacing:0;}
+h1{font-size:16px;}h2,h3,h4{font-size:14px;}h5,h6{font-size:12px;}
+abbr,acronym{border:0;font-variant:normal}
+address,caption,cite,code,dfn,em,th,var,optgroup{font-style:normal;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+a,img{border:0;}
+a,a:visited{color:#5e5e5e; text-decoration:none;}
+a:hover{color:#4183C4;text-decoration:underline;}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}/* Hides from IE-mac \*/
+*html .clearfix{height:1%;}
+.clearfix{display:block;}/* End hide from IE-mac */
+*+html .clearfix{min-height:1%;}
+body{font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;color:#333;background:#fff;}
+/* shortcut */
+.shortcut{position:fixed;top:0;left:0;z-index:9999;width:100%;}
+*html,*html body /* 修正IE6振动bug */{background-image:url(about:blank);background-attachment:fixed;}
+*html .shortcut{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+.shortcut{height:28px;line-height:28px;font-size:12px;background:#EEEEEE;text-transform:uppercase;box-shadow:1px 0px 2px rgba(0,0,0,0.2);border-bottom:1px solid #DDDDDD;}
+.shortcut h1{font-size:14px;font-family:"微软雅黑","宋体";}
+.shortcut a,.shortcut h1{padding:0px 10px;letter-spacing:1px;color:#333;text-shadow:0px 1px 1px #fff;display:block;float:left;}
+.shortcut a:hover{background:#fff;}
+.shortcut span.right{float:right;}
+.shortcut span.right a{float:left;display:block;color:#ff6600;font-weight:800;}
+.headeline{height:40px;overflow:hidden;}
+.adv960x90{width:960px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:40px auto 0 auto;}
+.adv728x90{width:728px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:0 auto;}
+
+</style>
+<script src="http://www.jsfoot.com/skin/js/jquery.1.4.2-min.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+    <div class="shortcut">
+        <h1><a href="http://www.jsfoot.com/jquery/menu/dh/2013-01-03/876.html">jquery左侧导航菜单仿天猫左侧导航分类列表</a></h1>
+        <span class="right">
+            <a href="http://www.jsfoot.com/jquery/menu/dh/2013-01-03/876.html">
+                <strong>下载特效</strong>
+            </a>
+        </span>
+        <div class="clr"></div>
+    </div>
+    <!--/ Codrops top bar -->
+
+    <div class="headeline"></div>
+
+
+
+    <!--演示内容开始-->
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        a, img {
+            border: 0;
+        }
+
+        a {
+            color: #5e5e5e;
+            text-decoration: none;
+        }
+
+            a:hover {
+                color: #990000;
+            }
+
+        body {
+            font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+            background: url('http://www.jsfoot.com/jquery/demo/images/bg_html.jpg') top center repeat #140a04;
+        }
+        /* yourweb_container */
+        .yourweb_container {
+            width: 1156px;
+            margin: 0 auto;
+        }
+
+        .sidebar {
+            width: 918px;
+            float: right;
+            height: 2600px;
+            background: repeat-y url('http://www.jsfoot.com/jquery/demo/images/bg_line_t.jpg') #ffffff;
+        }
+
+            .sidebar h1 {
+                font-size: 16px;
+                font-family: '微软雅黑';
+                padding: 10px 20px;
+            }
+
+            .sidebar p {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+    </style>
+    <link href="/Themes/jquery.tmailsider.css" type="text/css" rel="stylesheet">
+
+    <div class="yourweb_container">
+        <div style="height: 60px; overflow: hidden;"></div>
+        <div class="sidebar" id="Z_RightSide">
+            <h1>仿天猫导航</h1>
+            <p>仿淘宝天猫左侧分类导航 兼容IE6(没有折叠效果), IE7 IE8及以上 Firefox,Chrome等主流浏览器<br>
+                Design by 夏の寒风 QQ:490720430</p>
+        </div>
+    </div>
+    <!--yourweb_container end-->
+
+    <div class="Z_TypeList" id="Z_TypeList" style="top: 60px; left: 253.5px;">
+        <h1 class="title">所有商品分类<s class="btn_group bright"><a class="bleft"></a><a class="bright"></a></s></h1>
+        <div class="Z_MenuList">
+            <ul>
+                <li class="list-item0">
+                    <h3>服装/内衣/配件</h3>
+                    <p style="display: block;">
+                        <a href="#">女装</a>
+                        <a href="#">男装</a>
+                        <a href="#">内衣</a>
+                        <a href="#">羽绒</a>
+                        <a href="#">呢大衣</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">毛衣</a>
+                        <a href="#">保暖</a>
+                        <a href="#">睡衣</a>
+                        <a href="#">男羽绒</a>
+                        <a href="#">男毛衣</a>
+                    </p>
+                </li>
+                <li class="list-item1 alt">
+                    <h3>鞋/箱包</h3>
+                    <p style="display: block;">
+                        <a href="#">女鞋</a>
+                        <a href="#">男鞋</a>
+                        <a href="#">雪地靴</a>
+                        <a href="#">靴子</a>
+                        <a href="#">男靴</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">箱包</a>
+                        <a href="#">女包</a>
+                        <a href="#">男包</a>
+                        <a href="#">拉杆箱</a>
+                        <a href="#">钱包</a>
+                    </p>
+                </li>
+                <li class="list-item2">
+                    <h3>珠宝饰品/手表眼睛</h3>
+                    <p style="display: block;">
+                        <a href="#">珠宝</a>
+                        <a href="#">足金</a>
+                        <a href="#">钻戒</a>
+                        <a href="#">玉镯</a>
+                        <a href="#">珍珠</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">手表</a>
+                        <a href="#">饰品</a>
+                        <a href="#">毛衣链</a>
+                        <a href="#">手链</a>
+                        <a href="#">瑞士军刀</a>
+                    </p>
+                </li>
+                <li class="list-item3 alt">
+                    <h3>化妆品</h3>
+                    <p style="display: block;">
+                        <a href="#">护肤</a>
+                        <a href="#">彩妆</a>
+                        <a href="#">假发</a>
+                        <a href="#">香水</a>
+                        <a href="#">男士护肤</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">套装</a>
+                        <a href="#">面膜</a>
+                        <a href="#">洁面</a>
+                        <a href="#">眼霜</a>
+                        <a href="#">BB霜</a>
+                        <a href="#">爽肤水</a>
+                    </p>
+                </li>
+                <li class="list-item4">
+                    <h3>运动户外</h3>
+                    <p style="display: block;">
+                        <a href="#">运动鞋</a>
+                        <a href="#">运动服</a>
+                        <a href="#">户外</a>
+                        <a href="#">用品</a>
+                        <a href="#">板鞋</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">跑步鞋</a>
+                        <a href="#">羽绒服</a>
+                        <a href="#">冲锋衣</a>
+                        <a href="#">跑步机</a>
+                    </p>
+                </li>
+                <li class="list-item5 alt">
+                    <h3>手机数码</h3>
+                    <p style="display: block;">
+                        <a href="#">手机</a>
+                        <a href="#">相机</a>
+                        <a href="#">笔记本</a>
+                        <a href="#">平板</a>
+                        <a href="#">硬件</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">配件</a>
+                        <a href="#">视听</a>
+                        <a href="#">移动存储</a>
+                        <a href="#">台式机</a>
+                    </p>
+                </li>
+                <li class="list-item6">
+                    <h3>家用电器</h3>
+                    <p style="display: block;">
+                        <a href="#">大家电</a>
+                        <a href="#">影音</a>
+                        <a href="#">电视</a>
+                        <a href="#">耳机</a>
+                        <a href="#">厨房</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">生活电器</a>
+                        <a href="#">取暖器</a>
+                        <a href="#">个人护理/保健</a>
+                    </p>
+                </li>
+                <li class="list-item7 alt">
+                    <h3>家具建材</h3>
+                    <p style="display: block;">
+                        <a href="#">灯具</a>
+                        <a href="#">卫浴</a>
+                        <a href="#">油漆</a>
+                        <a href="#">开关</a>
+                        <a href="#">地板</a>
+                        <a href="#">墙纸</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">沙发</a>
+                        <a href="#">床</a>
+                        <a href="#">衣柜</a>
+                        <a href="#">床垫</a>
+                        <a href="#">架类</a>
+                        <a href="#">工具</a>
+                    </p>
+                </li>
+                <li class="list-item8">
+                    <h3>家纺/居家</h3>
+                    <p style="display: block;">
+                        <a href="#">四件套</a>
+                        <a href="#">蚕丝被</a>
+                        <a href="#">冬被</a>
+                        <a href="#">枕头</a>
+                        <a href="#">家饰</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">厨房</a>
+                        <a href="#">杯子</a>
+                        <a href="#">清洁</a>
+                        <a href="#">收纳</a>
+                        <a href="#">宠物</a>
+                        <a href="#">居家</a>
+                    </p>
+                </li>
+                <li class="list-item9 alt">
+                    <h3>母婴玩具</h3>
+                    <p style="display: block;">
+                        <a href="#">奶粉</a>
+                        <a href="#">尿裤</a>
+                        <a href="#">童装</a>
+                        <a href="#">孕产</a>
+                        <a href="#">玩具</a>
+                        <a href="#">车床</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">辅食</a>
+                        <a href="#">用品</a>
+                        <a href="#">童鞋</a>
+                        <a href="#">月子</a>
+                        <a href="#">大人玩乐</a>
+                    </p>
+                </li>
+                <li class="list-item10">
+                    <h3>食品</h3>
+                    <p style="display: block;">
+                        <a href="#">零食</a>
+                        <a href="#">坚果</a>
+                        <a href="#">茶叶</a>
+                        <a href="#">冲饮</a>
+                        <a href="#">粮油</a>
+                        <a href="#">生鲜</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">酒水</a>
+                        <a href="#">白酒</a>
+                        <a href="#">葡萄酒</a>
+                        <a href="#">巧克力</a>
+                        <a href="#">进口</a>
+                    </p>
+                </li>
+                <li class="list-item11 alt">
+                    <h3>医药保健</h3>
+                    <p style="display: block;">
+                        <a href="#">保健</a>
+                        <a href="#">滋补</a>
+                        <a href="#">养生</a>
+                        <a href="#">食疗</a>
+                        <a href="#">提高免疫</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">药品</a>
+                        <a href="#">血压</a>
+                        <a href="#">美瞳</a>
+                        <a href="#">计生</a>
+                        <a href="#">体检</a>
+                    </p>
+                </li>
+                <li class="list-item12">
+                    <h3>汽车配件</h3>
+                    <p style="display: block;">
+                        <a href="#">汽车</a>
+                        <a href="#">汽车用品</a>
+                        <a href="#">坐垫</a>
+                        <a href="#">座套</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">脚垫</a>
+                        <a href="#">GPS</a>
+                        <a href="#">儿童安全座椅</a>
+                        <a href="#">改装</a>
+                    </p>
+                </li>
+                <li class="list-item13 alt">
+                    <h3>图书音像</h3>
+                    <p style="display: block;">
+                        <a href="#">考试</a>
+                        <a href="#">儿童</a>
+                        <a href="#">小说</a>
+                        <a href="#">外语</a>
+                        <a href="#">社科</a>
+                        <a href="#">艺术</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">养生</a>
+                        <a href="#">文学</a>
+                        <a href="#">动漫</a>
+                        <a href="#">杂志</a>
+                        <a href="#">心理</a>
+                        <a href="#">管理</a>
+                    </p>
+                </li>
+                <li class="list-item14">
+                    <h3>文化娱乐</h3>
+                    <p style="display: block;">
+                        <a href="#">电子凭证</a>
+                        <a href="#">小猫提货</a>
+                        <a href="#">乐器</a>
+                        <a href="#">旅游</a>
+                    </p>
+                    <p style="display: block;">
+                        <a href="#">网店软件</a>
+                        <a href="#">古董字画</a>
+                        <a href="#">个性定制</a>
+                    </p>
+                </li>
+                <li class="list-item15 alt">
+                    <h3>手机/网游点卡</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="Z_SubList" style="top: 40px; left: 238px; display: none;">
+            <div class="subView" style="display: none;">
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">服装/内衣/配件</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣棉服</a>
+                            <a href="#" target="_blank">毛呢外套</a>
+                            <a href="#" target="_blank">打底裤</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">连衣裙</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">T恤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">半身裙</a>
+                            <a href="#" target="_blank">皮草</a>
+                            <a href="#" target="_blank">婚纱/礼服/旗袍</a>
+                            <a href="#" target="_blank">真皮皮衣</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">婚纱</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">ochirly</a>
+                            <a href="#" target="_blank">韩都衣舍</a>
+                            <a href="#" target="_blank">裂帛</a>
+                            <a href="#" target="_blank">优衣库</a>
+                            <a href="#" target="_blank">only</a>
+                            <a href="#" target="_blank">秋水伊人</a>
+                            <a href="#" target="_blank">哥弟</a>
+                            <a href="#" target="_blank">粉红大布娃娃</a>
+                            <a href="#" target="_blank">三彩</a>
+                            <a href="#" target="_blank">歌莉娅</a>
+                            <a href="#" target="_blank">茵曼</a>
+                            <a href="#" target="_blank">艾莱依</a>
+                            <a href="#" target="_blank">衣香丽影</a>
+                            <a href="#" target="_blank">江南布衣</a>
+                            <a href="#" target="_blank">纳纹</a>
+                            <a href="#" target="_blank">播</a>
+                            <a href="#" target="_blank">香影</a>
+                            <a href="#" target="_blank">雅鹿</a>
+                            <a href="#" target="_blank">OSA</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">服饰配件</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">女士丝巾/围巾/披肩</a>
+                            <a href="#" target="_blank">男士皮带</a>
+                            <a href="#" target="_blank">女士腰带</a>
+                            <a href="#" target="_blank">毛线</a>
+                            <a href="#" target="_blank">手套</a>
+                            <a href="#" target="_blank">帽子</a>
+                            <a href="#" target="_blank">男士围巾</a>
+                            <a href="#" target="_blank">领带/领结</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">Rayli</a>
+                            <a href="#" target="_blank">CARTELO</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精品男装</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣</a>
+                            <a href="#" target="_blank">皮衣</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">呢大衣</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">夹克</a>
+                            <a href="#" target="_blank">羊绒衫</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">马甲/背心</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">t恤</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">皮裤</a>
+                            <a href="#" target="_blank">西服</a>
+                            <a href="#" target="_blank">西裤</a>
+                            <a href="#" target="_blank">西服套装</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">JACKJONES</a>
+                            <a href="#" target="_blank">太平鸟</a>
+                            <a href="#" target="_blank">GXG</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">劲霸</a>
+                            <a href="#" target="_blank">马克华菲</a>
+                            <a href="#" target="_blank">九牧王</a>
+                            <a href="#" target="_blank">利郎</a>
+                            <a href="#" target="_blank">LEE</a>
+                            <a href="#" target="_blank">柒牌</a>
+                            <a href="#" target="_blank">LEVI'S</a>
+                            <a href="#" target="_blank">SELECTED</a>
+                            <a href="#" target="_blank">杉杉</a>
+                            <a href="#" target="_blank">雅戈尔</a>
+                            <a href="#" target="_blank">DICKIES</a>
+                            <a href="#" target="_blank">诺帝卡</a>
+                            <a href="#" target="_blank">报喜鸟</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">时尚家居</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">睡衣套装</a>
+                            <a href="#" target="_blank">夹棉家居服</a>
+                            <a href="#" target="_blank">珊瑚绒家居服</a>
+                            <a href="#" target="_blank">情侣套装</a>
+                            <a href="#" target="_blank">卡通睡衣</a>
+                            <a href="#" target="_blank">睡袍</a>
+                            <a href="#" target="_blank">睡裙</a>
+                            <a href="#" target="_blank">睡裤</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">芬腾</a>
+                            <a href="#" target="_blank">安之伴</a>
+                            <a href="#" target="_blank">派邦奴</a>
+                            <a href="#" target="_blank">秋鹿</a>
+                            <a href="#" target="_blank">睦隆世家</a>
+                            <a href="#" target="_blank">雪俐</a>
+                            <a href="#" target="_blank">爱帝</a>
+                            <a href="#" target="_blank">美梦</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精致内衣</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">保暖套装</a>
+                            <a href="#" target="_blank">保暖上衣</a>
+                            <a href="#" target="_blank">精品文胸</a>
+                            <a href="#" target="_blank">塑身衣</a>
+                            <a href="#" target="_blank">女式内裤</a>
+                            <a href="#" target="_blank">文胸套装</a>
+                            <a href="#" target="_blank">中筒袜</a>
+                            <a href="#" target="_blank">连裤袜</a>
+                            <a href="#" target="_blank">男式内裤</a>
+                            <a href="#" target="_blank">保暖裤</a>
+                            <a href="#" target="_blank">聚拢文胸</a>
+                            <a href="#" target="_blank">美腿袜</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">浪莎</a>
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">南极人</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">北极绒</a>
+                            <a href="#" target="_blank">爱慕</a>
+                            <a href="#" target="_blank">曼妮芬</a>
+                            <a href="#" target="_blank">歌瑞尔</a>
+                            <a href="#" target="_blank">古今</a>
+                            <a href="#" target="_blank">猫人</a>
+                            <a href="#" target="_blank">安莉芳</a>
+                            <a href="#" target="_blank">夏娃之秀</a>
+                            <a href="#" target="_blank">黛安芬</a>
+                            <a href="#" target="_blank">金三塔</a>
+                        </p>
+                    </li>
+                    <p class="subItemAd">
+                        <a href="#" target="_blank">
+                            <img width="218" height="32" src="http://img04.taobaocdn.com/tps/i4/T1dVzWXbpjXXb12rTm-218-32.png" alt="潮流服饰精选"></a>
+                    </p>
+                </ul>
+            </div>
+            <div class="subView" style="display: none;">
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">鞋/箱包</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣棉服</a>
+                            <a href="#" target="_blank">毛呢外套</a>
+                            <a href="#" target="_blank">打底裤</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">连衣裙</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">T恤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">半身裙</a>
+                            <a href="#" target="_blank">皮草</a>
+                            <a href="#" target="_blank">婚纱/礼服/旗袍</a>
+                            <a href="#" target="_blank">真皮皮衣</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">婚纱</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">ochirly</a>
+                            <a href="#" target="_blank">韩都衣舍</a>
+                            <a href="#" target="_blank">裂帛</a>
+                            <a href="#" target="_blank">优衣库</a>
+                            <a href="#" target="_blank">only</a>
+                            <a href="#" target="_blank">秋水伊人</a>
+                            <a href="#" target="_blank">哥弟</a>
+                            <a href="#" target="_blank">粉红大布娃娃</a>
+                            <a href="#" target="_blank">三彩</a>
+                            <a href="#" target="_blank">歌莉娅</a>
+                            <a href="#" target="_blank">茵曼</a>
+                            <a href="#" target="_blank">艾莱依</a>
+                            <a href="#" target="_blank">衣香丽影</a>
+                            <a href="#" target="_blank">江南布衣</a>
+                            <a href="#" target="_blank">纳纹</a>
+                            <a href="#" target="_blank">播</a>
+                            <a href="#" target="_blank">香影</a>
+                            <a href="#" target="_blank">雅鹿</a>
+                            <a href="#" target="_blank">OSA</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">服饰配件</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">女士丝巾/围巾/披肩</a>
+                            <a href="#" target="_blank">男士皮带</a>
+                            <a href="#" target="_blank">女士腰带</a>
+                            <a href="#" target="_blank">毛线</a>
+                            <a href="#" target="_blank">手套</a>
+                            <a href="#" target="_blank">帽子</a>
+                            <a href="#" target="_blank">男士围巾</a>
+                            <a href="#" target="_blank">领带/领结</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">Rayli</a>
+                            <a href="#" target="_blank">CARTELO</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精品男装</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣</a>
+                            <a href="#" target="_blank">皮衣</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">呢大衣</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">夹克</a>
+                            <a href="#" target="_blank">羊绒衫</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">马甲/背心</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">t恤</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">皮裤</a>
+                            <a href="#" target="_blank">西服</a>
+                            <a href="#" target="_blank">西裤</a>
+                            <a href="#" target="_blank">西服套装</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">JACKJONES</a>
+                            <a href="#" target="_blank">太平鸟</a>
+                            <a href="#" target="_blank">GXG</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">劲霸</a>
+                            <a href="#" target="_blank">马克华菲</a>
+                            <a href="#" target="_blank">九牧王</a>
+                            <a href="#" target="_blank">利郎</a>
+                            <a href="#" target="_blank">LEE</a>
+                            <a href="#" target="_blank">柒牌</a>
+                            <a href="#" target="_blank">LEVI'S</a>
+                            <a href="#" target="_blank">SELECTED</a>
+                            <a href="#" target="_blank">杉杉</a>
+                            <a href="#" target="_blank">雅戈尔</a>
+                            <a href="#" target="_blank">DICKIES</a>
+                            <a href="#" target="_blank">诺帝卡</a>
+                            <a href="#" target="_blank">报喜鸟</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">时尚家居</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">睡衣套装</a>
+                            <a href="#" target="_blank">夹棉家居服</a>
+                            <a href="#" target="_blank">珊瑚绒家居服</a>
+                            <a href="#" target="_blank">情侣套装</a>
+                            <a href="#" target="_blank">卡通睡衣</a>
+                            <a href="#" target="_blank">睡袍</a>
+                            <a href="#" target="_blank">睡裙</a>
+                            <a href="#" target="_blank">睡裤</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">芬腾</a>
+                            <a href="#" target="_blank">安之伴</a>
+                            <a href="#" target="_blank">派邦奴</a>
+                            <a href="#" target="_blank">秋鹿</a>
+                            <a href="#" target="_blank">睦隆世家</a>
+                            <a href="#" target="_blank">雪俐</a>
+                            <a href="#" target="_blank">爱帝</a>
+                            <a href="#" target="_blank">美梦</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精致内衣</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">保暖套装</a>
+                            <a href="#" target="_blank">保暖上衣</a>
+                            <a href="#" target="_blank">精品文胸</a>
+                            <a href="#" target="_blank">塑身衣</a>
+                            <a href="#" target="_blank">女式内裤</a>
+                            <a href="#" target="_blank">文胸套装</a>
+                            <a href="#" target="_blank">中筒袜</a>
+                            <a href="#" target="_blank">连裤袜</a>
+                            <a href="#" target="_blank">男式内裤</a>
+                            <a href="#" target="_blank">保暖裤</a>
+                            <a href="#" target="_blank">聚拢文胸</a>
+                            <a href="#" target="_blank">美腿袜</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">浪莎</a>
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">南极人</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">北极绒</a>
+                            <a href="#" target="_blank">爱慕</a>
+                            <a href="#" target="_blank">曼妮芬</a>
+                            <a href="#" target="_blank">歌瑞尔</a>
+                            <a href="#" target="_blank">古今</a>
+                            <a href="#" target="_blank">猫人</a>
+                            <a href="#" target="_blank">安莉芳</a>
+                            <a href="#" target="_blank">夏娃之秀</a>
+                            <a href="#" target="_blank">黛安芬</a>
+                            <a href="#" target="_blank">金三塔</a>
+                        </p>
+                    </li>
+                    <p class="subItemAd">
+                        <a href="#" target="_blank">
+                            <img width="218" height="32" src="http://img04.taobaocdn.com/tps/i4/T1dVzWXbpjXXb12rTm-218-32.png" alt="潮流服饰精选"></a>
+                    </p>
+                </ul>
+            </div>
+            <div class="subView" style="display: none;">
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">珠宝饰品/手表眼睛</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣棉服</a>
+                            <a href="#" target="_blank">毛呢外套</a>
+                            <a href="#" target="_blank">打底裤</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">连衣裙</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">T恤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">半身裙</a>
+                            <a href="#" target="_blank">皮草</a>
+                            <a href="#" target="_blank">婚纱/礼服/旗袍</a>
+                            <a href="#" target="_blank">真皮皮衣</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">婚纱</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">ochirly</a>
+                            <a href="#" target="_blank">韩都衣舍</a>
+                            <a href="#" target="_blank">裂帛</a>
+                            <a href="#" target="_blank">优衣库</a>
+                            <a href="#" target="_blank">only</a>
+                            <a href="#" target="_blank">秋水伊人</a>
+                            <a href="#" target="_blank">哥弟</a>
+                            <a href="#" target="_blank">粉红大布娃娃</a>
+                            <a href="#" target="_blank">三彩</a>
+                            <a href="#" target="_blank">歌莉娅</a>
+                            <a href="#" target="_blank">茵曼</a>
+                            <a href="#" target="_blank">艾莱依</a>
+                            <a href="#" target="_blank">衣香丽影</a>
+                            <a href="#" target="_blank">江南布衣</a>
+                            <a href="#" target="_blank">纳纹</a>
+                            <a href="#" target="_blank">播</a>
+                            <a href="#" target="_blank">香影</a>
+                            <a href="#" target="_blank">雅鹿</a>
+                            <a href="#" target="_blank">OSA</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">服饰配件</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">女士丝巾/围巾/披肩</a>
+                            <a href="#" target="_blank">男士皮带</a>
+                            <a href="#" target="_blank">女士腰带</a>
+                            <a href="#" target="_blank">毛线</a>
+                            <a href="#" target="_blank">手套</a>
+                            <a href="#" target="_blank">帽子</a>
+                            <a href="#" target="_blank">男士围巾</a>
+                            <a href="#" target="_blank">领带/领结</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">Rayli</a>
+                            <a href="#" target="_blank">CARTELO</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精品男装</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">羽绒服</a>
+                            <a href="#" target="_blank">毛衣</a>
+                            <a href="#" target="_blank">棉衣</a>
+                            <a href="#" target="_blank">皮衣</a>
+                            <a href="#" target="_blank">牛仔裤</a>
+                            <a href="#" target="_blank">呢大衣</a>
+                            <a href="#" target="_blank">风衣</a>
+                            <a href="#" target="_blank">夹克</a>
+                            <a href="#" target="_blank">羊绒衫</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">马甲/背心</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">t恤</a>
+                            <a href="#" target="_blank">针织衫</a>
+                            <a href="#" target="_blank">皮裤</a>
+                            <a href="#" target="_blank">西服</a>
+                            <a href="#" target="_blank">西裤</a>
+                            <a href="#" target="_blank">西服套装</a>
+                            <a href="#" target="_blank">中老年服装</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">JACKJONES</a>
+                            <a href="#" target="_blank">太平鸟</a>
+                            <a href="#" target="_blank">GXG</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">劲霸</a>
+                            <a href="#" target="_blank">马克华菲</a>
+                            <a href="#" target="_blank">九牧王</a>
+                            <a href="#" target="_blank">利郎</a>
+                            <a href="#" target="_blank">LEE</a>
+                            <a href="#" target="_blank">柒牌</a>
+                            <a href="#" target="_blank">LEVI'S</a>
+                            <a href="#" target="_blank">SELECTED</a>
+                            <a href="#" target="_blank">杉杉</a>
+                            <a href="#" target="_blank">雅戈尔</a>
+                            <a href="#" target="_blank">DICKIES</a>
+                            <a href="#" target="_blank">诺帝卡</a>
+                            <a href="#" target="_blank">报喜鸟</a>
+                        </p>
+                    </li>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">时尚家居</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">睡衣套装</a>
+                            <a href="#" target="_blank">夹棉家居服</a>
+                            <a href="#" target="_blank">珊瑚绒家居服</a>
+                            <a href="#" target="_blank">情侣套装</a>
+                            <a href="#" target="_blank">卡通睡衣</a>
+                            <a href="#" target="_blank">睡袍</a>
+                            <a href="#" target="_blank">睡裙</a>
+                            <a href="#" target="_blank">睡裤</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">芬腾</a>
+                            <a href="#" target="_blank">安之伴</a>
+                            <a href="#" target="_blank">派邦奴</a>
+                            <a href="#" target="_blank">秋鹿</a>
+                            <a href="#" target="_blank">睦隆世家</a>
+                            <a href="#" target="_blank">雪俐</a>
+                            <a href="#" target="_blank">爱帝</a>
+                            <a href="#" target="_blank">美梦</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="subItem">
+                        <h3 class="subItem-hd"><a href="#" target="_blank">精致内衣</a></h3>
+                        <p class="subItem-cat">
+                            <a href="#" target="_blank">保暖套装</a>
+                            <a href="#" target="_blank">保暖上衣</a>
+                            <a href="#" target="_blank">精品文胸</a>
+                            <a href="#" target="_blank">塑身衣</a>
+                            <a href="#" target="_blank">女式内裤</a>
+                            <a href="#" target="_blank">文胸套装</a>
+                            <a href="#" target="_blank">中筒袜</a>
+                            <a href="#" target="_blank">连裤袜</a>
+                            <a href="#" target="_blank">男式内裤</a>
+                            <a href="#" target="_blank">保暖裤</a>
+                            <a href="#" target="_blank">聚拢文胸</a>
+                            <a href="#" target="_blank">美腿袜</a>
+                        </p>
+                        <h4 class="subItem-title brandTitle">品牌：</h4>
+                        <p class="subItem-brand">
+                            <a href="#" target="_blank">七匹狼</a>
+                            <a href="#" target="_blank">浪莎</a>
+                            <a href="#" target="_blank">波司登</a>
+                            <a href="#" target="_blank">南极人</a>
+                            <a href="#" target="_blank">恒源祥</a>
+                            <a href="#" target="_blank">北极绒</a>
+                            <a href="#" target="_blank">爱慕</a>
+                            <a href="#" target="_blank">曼妮芬</a>
+                            <a href="#" target="_blank">歌瑞尔</a>
+                            <a href="#" target="_blank">古今</a>
+                            <a href="#" target="_blank">猫人</a>
+                            <a href="#" target="_blank">安莉芳</a>
+                            <a href="#" target="_blank">夏娃之秀</a>
+                            <a href="#" target="_blank">黛安芬</a>
+                            <a href="#" target="_blank">金三塔</a>
+                        </p>
+                    </li>
+                    <p class="subItemAd">
+                        <a href="#" target="_blank">
+                            <img width="218" height="32" src="http://img04.taobaocdn.com/tps/i4/T1dVzWXbpjXXb12rTm-218-32.png" alt="潮流服饰精选"></a>
+                    </p>
+                </ul>
+            </div>
+            <div class="subView" style="display: none;">4、化妆品</div>
+            <div class="subView" style="display: block;">5、运动户外</div>
+            <div class="subView" style="display: none;">6、手机数码</div>
+            <div class="subView" style="display: none;">7、家用电器</div>
+            <div class="subView" style="display: none;">8、家具建材</div>
+            <div class="subView" style="display: none;">9、家纺/居家</div>
+            <div class="subView" style="display: none;">10、母婴玩具</div>
+            <div class="subView" style="display: none;">11、食品</div>
+            <div class="subView" style="display: none;">12、医药保健</div>
+            <div class="subView" style="display: none;">13、汽车配件</div>
+            <div class="subView" style="display: none;">14、图书音像</div>
+            <div class="subView" style="display: none;">15、文化娱乐</div>
+            <div class="subView" style="display: none;">16、手机/网游点卡</div>
+        </div>
+    </div>
+
+    <script src="/scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/scripts/jquery.tmailsider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $('#Z_TypeList').Z_TMAIL_SIDER();
+	</script>
+    <!--[if IE 6]>
+	<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix('.Z_TypeList .Z_MenuList h3,.Z_TypeList .menuIcon');
+	</script>
+	<![endif]-->
+    <!--演示内容结束-->
+
+
+
+
+
+
+
+
+
+
+
+    <div style="width: 300px; height: 250px; margin: 20px auto;">
+        <script type="text/javascript">
+            alimama_pid="mm_15607527_3320120_10797841";
+            alimama_width=300;
+            alimama_height=250;
+</script>
+        <script type="text/javascript" src="/scripts/tmail.inf.js"></script>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--百度流量统计代码 只能对本网站流量统计 和特效无关，请不好拷贝-->
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc082905b96decbbbf721b0f5daf8b225' type='text/javascript'%3E%3C/script%3E"));
+</script>
+    <script type="text/javascript" src=" http://hm.baidu.com/h.js?c082905b96decbbbf721b0f5daf8b225"></script>
+
+</body>
+</html>

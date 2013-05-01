@@ -1,0 +1,5 @@
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
