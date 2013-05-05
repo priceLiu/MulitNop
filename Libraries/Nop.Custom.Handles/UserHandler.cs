@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Web;
+using Newtonsoft.Json;
+using Nop.Core.Data;
+using Nop.Core.Domain.Customers;
+using Nop.Data;
 
 namespace Nop.Custom.Handles
 {
@@ -21,7 +27,34 @@ namespace Nop.Custom.Handles
 
         public void ProcessRequest(HttpContext context)
         {
-            //在此处写入您的处理程序实现。
+            context.Response.ContentType = "text/plain";
+            string result = GetCustomerJson(1);
+            context.Response.Write(result);
+        }
+
+        public string GetCustomerJson(int customerId)
+        {
+            var settings = new DataSettings()
+            {
+                DataProvider = "sqlserver",
+                DataConnectionString = ConfigurationManager.ConnectionStrings["serviceDB"].ToString()
+            };
+
+            var dataProviderSettings = settings;
+
+            NopObjectContext dbContext = new NopObjectContext(ConfigurationManager.ConnectionStrings["serviceDB"].ToString());
+            EfRepository<Customer> repository = new Data.EfRepository<Customer>(dbContext);
+
+            Customer customer = repository.GetById(customerId);
+
+
+            IEnumerable<Customer> customers = repository.Table;
+
+            JsonSerializerSettings jsonSettings = new JsonSerializerSettings();
+            jsonSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            string result = JsonConvert.SerializeObject(new { Customer = customer }, Formatting.Indented, jsonSettings);
+
+            return result;
         }
 
         #endregion
