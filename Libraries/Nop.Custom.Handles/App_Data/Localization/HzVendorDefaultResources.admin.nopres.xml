@@ -1,0 +1,453 @@
+﻿<Language Name="English">
+    <LocaleResource Name="Admin">
+        <Value>Admin</Value>
+        <Children>
+              <LocaleResource Name="Catalog">
+                <Value>Catalog</Value>
+                <Children>
+                  <LocaleResource Name="BulkEdit">
+                    <Children>
+                      <LocaleResource Name="List">
+                        <Children>
+                          <LocaleResource Name="SearchVendor">
+                            <Value>Vendor</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Search by a specific vendor.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="Vendors">
+                    <Value>Vendors</Value>
+                    <Children>
+                      <LocaleResource Name="Acl">
+                        <Value>ACL</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Customers">
+                        <Value>Customers</Value>
+                        <Children>
+                          <LocaleResource Name="Fields">
+                            <Children>
+                              <LocaleResource Name="Customer">
+                                <Value>Customer</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="DisplayOrder">
+                                <Value>Display Order</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="savebeforeedit">
+                            <Value>You need to save the vendor before you can add customers for this vendor.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="AddNew">
+                            <Value>Add new customer</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="ShowVendorManagersOnly">
+                            <Value>Show vendor managers only</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Info">
+                        <Value>Vendor Info</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="AddNew">
+                        <Value>Add a new vendor</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="BackToList">
+                        <Value>back to vendor list</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Branches">
+                        <Value>Branches</Value>
+                        <Children>
+                          <LocaleResource Name="Added">
+                            <Value>The new branch has been added successfully.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="AddNew">
+                            <Value>Add a New Branch</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Updated">
+                            <Value>The branch has been updated successfully.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="BackToVendor">
+                            <Value>back to vendor</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="EditBranch">
+                            <Value>Edit branch</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="AddBranch">
+                            <Value>Add new branch</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Fields">
+                            <Children>
+                              <LocaleResource Name="AddNew">
+                                <Value>Add new</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="Name">
+                                <Value>Name</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter branch name</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Name is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="Website">
+                                <Value>Webstie</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter branch website</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>website is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="ViewOnGoogleMaps">
+                                <Value>View Branch address on Google map</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="Email">
+                                <Value>Email</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter email</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Email is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="Country">
+                                <Value>Country</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Select country</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Country is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="StateProvince">
+                                <Value>State / province</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Select state / province</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>State / province is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="City">
+                                <Value>City</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter city</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>City is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="Address1">
+                                <Value>Address 1</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter address 1</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Address 1 is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="Address2">
+                                <Value>Address 2</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter address 2</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Address 2 is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="ZipPostalCode">
+                                <Value>Zip / postal code</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter zip / postal code</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Zip / postal code is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="PhoneNumber">
+                                <Value>Phone number</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter phone number</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Phone number is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                              <LocaleResource Name="FaxNumber">
+                                <Value>Fax number</Value>
+                                <Children>
+                                  <LocaleResource Name="Hint">
+                                    <Value>Enter fax number</Value>
+                                  </LocaleResource>
+                                  <LocaleResource Name="Required">
+                                    <Value>Fax number is required.</Value>
+                                  </LocaleResource>
+                                </Children>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="EditVendorDetails">
+                        <Value>Edit vendor details</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Fields">
+                        <Children>
+                          <LocaleResource Name="Name">
+                            <Value>Name</Value>
+                            <Children>
+                              <LocaleResource Name="Required">
+                                <Value>Please provide a name.</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="Hint">
+                                <Value>The vendor's name.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="Description">
+                            <Value>Description</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>The description of the vendor.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="VendorTemplate">
+                            <Value>Vendor template</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Choose a vendor template. This template defines how this vendor (and its products) will be displayed.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="MetaKeywords">
+                            <Value>Meta keywords</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Meta keywords to be added to vendor page header.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="MetaDescription">
+                            <Value>Meta description</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Meta description to be added to vendor page header.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="MetaTitle">
+                            <Value>Meta title</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Override the page title. The default is the name of the vendor.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="SeName">
+                            <Value>Search engine friendly page name</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Set a search engine friendly page name e.g. 'the-best-vendor' to make your page URL 'http://www.yourVendor.com/the-best-vendor'. Leave empty to generate it automatically based on the name of the vendor.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="PageSize">
+                            <Value>Page size</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Set the page size for products in this vendor e.g. '4' products per page.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="AllowCustomersToSelectPageSize">
+                            <Value>Allow customers to select page size</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Whether customers are allowed to select the page size from a predefined list of options.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="PageSizeOptions">
+                            <Value>Page Size options (comma separated)</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Comma separated list of page size options (e.g. 10, 5, 15, 20). First option is the default page size if none are selected.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="PriceRanges">
+                            <Value>Price ranges</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Define the price ranges for the vendor price range filter. Separate ranges with a semicolon e.g. '0-199;200-300;301-;' (301- means 301 and over)</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="Published">
+                            <Value>Published</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Check to publish this vendor (visible in vendor). Uncheck to unpublish (vendor not available in vendor).</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="Deleted">
+                            <Value>Deleted</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="DisplayOrder">
+                            <Value>Display order</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Set the vendor's display order. 1 represents the top of the list.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="CreatedOn">
+                            <Value>Created on</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Picture">
+                            <Value>Picture</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>The vendor picture.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="SubjectToAcl">
+                            <Value>Subject to ACL</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Determines whether the vendor is subject to ACL (access control list).</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="AclCustomerRoles">
+                            <Value>Customer roles</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Select customer roles for which the vendor will be shown.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="List">
+                        <Children>
+                          <LocaleResource Name="SearchVendorName">
+                            <Value>Vendor name</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>A vendor name.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Products">
+                        <Value>Products</Value>
+                        <Children>
+                          <LocaleResource Name="AddNew">
+                            <Value>Add a new product</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="Fields">
+                            <Children>
+                              <LocaleResource Name="Product">
+                                <Value>Product</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="IsFeaturedProduct">
+                                <Value>Is featured product?</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="DisplayOrder">
+                                <Value>Display order</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="SaveBeforeEdit">
+                            <Value>You need to save the vendor before you can add products for this vendor page.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Added">
+                        <Value>The new vendor has been added successfully.</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Deleted">
+                        <Value>The vendor has been deleted successfully.</Value>
+                      </LocaleResource>
+                      <LocaleResource Name="Updated">
+                        <Value>The vendor has been updated successfully.</Value>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                  <LocaleResource Name="Products">
+                    <Value>Products</Value>
+                    <Children>
+                      <LocaleResource Name="List">
+                        <Children>
+                          <LocaleResource Name="SearchVendor">
+                            <Value>Vendor</Value>
+                            <Children>
+                              <LocaleResource Name="Hint">
+                                <Value>Search by a specific vendor.</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                      <LocaleResource Name="Vendors">
+                        <Value>Vendor mappings</Value>
+                        <Children>
+                          <LocaleResource Name="Fields">
+                            <Children>
+                              <LocaleResource Name="Vendor">
+                                <Value>Vendor</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="IsFeaturedProduct">
+                                <Value>Is featured product?</Value>
+                              </LocaleResource>
+                              <LocaleResource Name="DisplayOrder">
+                                <Value>Display order</Value>
+                              </LocaleResource>
+                            </Children>
+                          </LocaleResource>
+                          <LocaleResource Name="NoVendorsAvailable">
+                            <Value>No vendors available. Create at least one vendor before mapping.</Value>
+                          </LocaleResource>
+                          <LocaleResource Name="SaveBeforeEdit">
+                            <Value>You need to save the product before you can map vendors for this product page.</Value>
+                          </LocaleResource>
+                        </Children>
+                      </LocaleResource>
+                    </Children>
+                  </LocaleResource>
+                </Children>
+              </LocaleResource>
+            </Children>
+    </LocaleResource>
+</Language>

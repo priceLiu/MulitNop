@@ -1,0 +1,120 @@
+﻿<Language Name="English">
+    
+    <LocaleResource Name="ActivityLog">
+        <Children>
+            <LocaleResource Name="AddNewVendor">
+                <Value>Added a new vendor ('{0}')</Value>
+            </LocaleResource>
+            <LocaleResource Name="DeleteVendor">
+                <Value>Deleted a vendor ('{0}')</Value>
+            </LocaleResource>
+            <LocaleResource Name="EditVendor">
+                <Value>Edited a vendor ('{0}')</Value>
+            </LocaleResource>
+            <LocaleResource Name="PublicVendor">
+                <Children>
+                    <LocaleResource Name="ViewVendor">
+                        <Value>Public vendor. Viewed a vendor details page ('{0}')</Value>
+                    </LocaleResource>
+                </Children>
+            </LocaleResource>
+        </Children>
+    </LocaleResource>
+  <LocaleResource Name="Vendors">
+    <Value>Vendors</Value>
+    <Children>
+      <LocaleResource Name="List">
+        <Value>Vendor List</Value>
+      </LocaleResource>
+      <LocaleResource Name="OrderBy">
+        <Value>Sort by</Value>
+      </LocaleResource>
+      <LocaleResource Name="ViewAll">
+        <Value>View all</Value>
+      </LocaleResource>
+      <LocaleResource Name="ViewMode">
+        <Value>View as</Value>
+        <Children>
+          <LocaleResource Name="Grid">
+            <Value>Grid</Value>
+          </LocaleResource>
+          <LocaleResource Name="List">
+            <Value>List</Value>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+      <LocaleResource Name="PageSize">
+        <Value>Display</Value>
+        <Children>
+          <LocaleResource Name="PerPage">
+            <Value>per page</Value>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+      <LocaleResource Name="Branches">
+        <Value>Branches</Value>
+        <Children>
+          <LocaleResource Name="Phone">
+            <Value>Phone</Value>
+          </LocaleResource>
+          <LocaleResource Name="Fax">
+            <Value>Fax</Value>
+          </LocaleResource>
+          <LocaleResource Name="ViewOnGoogleMaps">
+            <Value>View address on Google Maps</Value>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+  <LocaleResource Name="Media">
+    <Children>
+      <LocaleResource Name="Vendor">
+        <Children>
+          <LocaleResource Name="ImageAlternateTextFormat">
+            <Value>Picture for vendor {0}</Value>
+          </LocaleResource>
+          <LocaleResource Name="ImageLinkTitleFormat">
+            <Value>Show products manufactured by {0}</Value>
+          </LocaleResource>
+        </Children>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+  <LocaleResource Name="PageTitle">
+    <Children>
+      <LocaleResource Name="Vendors">
+        <Value>Vendors</Value>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+  <LocaleResource Name="Products">
+    <Children>
+      <LocaleResource Name="Vendor">
+        <Value>Vendor</Value>
+      </LocaleResource>
+      <LocaleResource Name="VendorPartNumber">
+        <Value>Vendor part number</Value>
+      </LocaleResource>
+      <LocaleResource Name="Vendors">
+        <Value>Vendors</Value>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+  <LocaleResource Name="Search">
+    <Value>Search</Value>
+    <Children>
+      <LocaleResource Name="Vendor">
+        <Value>Vendor</Value>
+      </LocaleResource>
+    </Children>
+  </LocaleResource>
+    <LocaleResource Name="Sitemap">
+        <Value>Sitemap</Value>
+        <Children>
+            <LocaleResource Name="Vendors">
+                <Value>Vendors</Value>
+            </LocaleResource>
+        </Children>
+    </LocaleResource>
+</Language>
