@@ -1,66 +1,209 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><script src="/scripts/tmail.main.js" async="" mod_name="inf-main"></script>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>jquery左侧导航菜单仿天猫左侧导航分类列表|jsfoot 网页特效</title>
-<meta content="jquery左侧导航菜单仿天猫左侧导航分类列表" name="keywords">
-<meta content="jquery特效,js特效,flash特效,div+css教程,html5教程" name="description">
-<style>
-    @charset "utf-8";
-/* reset */
-*{margin:0;padding:0;list-style-type:none;}
-a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
-:focus{outline:0;}
-label{cursor:pointer;}
-img{vertical-align:middle;}
-table{empty-cells:show;border-collapse:collapse;border-spacing:0;}
-h1{font-size:16px;}h2,h3,h4{font-size:14px;}h5,h6{font-size:12px;}
-abbr,acronym{border:0;font-variant:normal}
-address,caption,cite,code,dfn,em,th,var,optgroup{font-style:normal;font-weight:normal}
-input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
-input,button,textarea,select{*font-size:100%}
-a,img{border:0;}
-a,a:visited{color:#5e5e5e; text-decoration:none;}
-a:hover{color:#4183C4;text-decoration:underline;}
-.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
-.clearfix{display:inline-table;}/* Hides from IE-mac \*/
-*html .clearfix{height:1%;}
-.clearfix{display:block;}/* End hide from IE-mac */
-*+html .clearfix{min-height:1%;}
-body{font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;color:#333;background:#fff;}
-/* shortcut */
-.shortcut{position:fixed;top:0;left:0;z-index:9999;width:100%;}
-*html,*html body /* 修正IE6振动bug */{background-image:url(about:blank);background-attachment:fixed;}
-*html .shortcut{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
-.shortcut{height:28px;line-height:28px;font-size:12px;background:#EEEEEE;text-transform:uppercase;box-shadow:1px 0px 2px rgba(0,0,0,0.2);border-bottom:1px solid #DDDDDD;}
-.shortcut h1{font-size:14px;font-family:"微软雅黑","宋体";}
-.shortcut a,.shortcut h1{padding:0px 10px;letter-spacing:1px;color:#333;text-shadow:0px 1px 1px #fff;display:block;float:left;}
-.shortcut a:hover{background:#fff;}
-.shortcut span.right{float:right;}
-.shortcut span.right a{float:left;display:block;color:#ff6600;font-weight:800;}
-.headeline{height:40px;overflow:hidden;}
-.adv960x90{width:960px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:40px auto 0 auto;}
-.adv728x90{width:728px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:0 auto;}
+<head>
+    <script src="/scripts/tmail.main.js" async="" mod_name="inf-main"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>jquery左侧导航菜单仿天猫左侧导航分类列表|jsfoot 网页特效</title>
+    <meta content="jquery左侧导航菜单仿天猫左侧导航分类列表" name="keywords">
+    <meta content="jquery特效,js特效,flash特效,div+css教程,html5教程" name="description">
+    <style>
+        @charset "utf-8";
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
 
-</style>
-<script src="/scripts/jquery.1.4.2-min.js" type="text/javascript"></script>
+        a {
+            blr: expression(this.onFocus=this.blur());
+        }
+        /*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+        :focus {
+            outline: 0;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        table {
+            empty-cells: show;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        h1 {
+            font-size: 16px;
+        }
+
+        h2, h3, h4 {
+            font-size: 14px;
+        }
+
+        h5, h6 {
+            font-size: 12px;
+        }
+
+        abbr, acronym {
+            border: 0;
+            font-variant: normal;
+        }
+
+        address, caption, cite, code, dfn, em, th, var, optgroup {
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        input, button, textarea, select, optgroup, option {
+            font-family: inherit;
+            font-size: inherit;
+            font-style: inherit;
+            font-weight: inherit;
+        }
+
+        input, button, textarea, select {
+            *font-size: 100%;
+        }
+
+        a, img {
+            border: 0;
+        }
+
+            a, a:visited {
+                color: #5e5e5e;
+                text-decoration: none;
+            }
+
+                a:hover {
+                    color: #4183C4;
+                    text-decoration: underline;
+                }
+
+        .clear {
+            display: block;
+            overflow: hidden;
+            clear: both;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clearfix {
+            display: inline-table;
+        }
+        /* Hides from IE-mac \*/
+        *html .clearfix {
+            height: 1%;
+        }
+
+        .clearfix {
+            display: block;
+        }
+        /* End hide from IE-mac */
+        * + html .clearfix {
+            min-height: 1%;
+        }
+
+        body {
+            font: 12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;
+            color: #333;
+            background: #fff;
+        }
+        /* shortcut */
+        .shortcut {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+        }
+
+        *html, *html body /* 修正IE6振动bug */ {
+            background-image: url(about:blank);
+            background-attachment: fixed;
+        }
+
+        *html .shortcut {
+            position: absolute;
+            top: expression(eval(document.documentElement.scrollTop));
+        }
+
+        .shortcut {
+            height: 28px;
+            line-height: 28px;
+            font-size: 12px;
+            background: #EEEEEE;
+            text-transform: uppercase;
+            box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+            border-bottom: 1px solid #DDDDDD;
+        }
+
+            .shortcut h1 {
+                font-size: 14px;
+                font-family: "微软雅黑","宋体";
+            }
+
+            .shortcut a, .shortcut h1 {
+                padding: 0px 10px;
+                letter-spacing: 1px;
+                color: #333;
+                text-shadow: 0px 1px 1px #fff;
+                display: block;
+                float: left;
+            }
+
+                .shortcut a:hover {
+                    background: #fff;
+                }
+
+            .shortcut span.right {
+                float: right;
+            }
+
+                .shortcut span.right a {
+                    float: left;
+                    display: block;
+                    color: #ff6600;
+                    font-weight: 800;
+                }
+
+        .headeline {
+            height: 40px;
+            overflow: hidden;
+        }
+
+        .adv960x90 {
+            width: 960px;
+            height: 90px;
+            overflow: hidden;
+            border: solid 1px #E6E6E6;
+            margin: 40px auto 0 auto;
+        }
+
+        .adv728x90 {
+            width: 728px;
+            height: 90px;
+            overflow: hidden;
+            border: solid 1px #E6E6E6;
+            margin: 0 auto;
+        }
+    </style>
+    <script src="/scripts/jquery.1.4.2-min.js" type="text/javascript"></script>
 </head>
 <body>
-
-
-    <div class="shortcut">
-        <h1><a href="http://www.jsfoot.com/jquery/menu/dh/2013-01-03/876.html">jquery左侧导航菜单仿天猫左侧导航分类列表</a></h1>
-        <span class="right">
-            <a href="http://www.jsfoot.com/jquery/menu/dh/2013-01-03/876.html">
-                <strong>下载特效</strong>
-            </a>
-        </span>
-        <div class="clr"></div>
-    </div>
-    <!--/ Codrops top bar -->
-
-    <div class="headeline"></div>
 
 
 
@@ -119,8 +262,10 @@ body{font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;color:#33
         <div style="height: 60px; overflow: hidden;"></div>
         <div class="sidebar" id="Z_RightSide">
             <h1>仿天猫导航</h1>
-            <p>仿淘宝天猫左侧分类导航 兼容IE6(没有折叠效果), IE7 IE8及以上 Firefox,Chrome等主流浏览器<br>
-                Design by 夏の寒风 QQ:490720430</p>
+            <p>
+                仿淘宝天猫左侧分类导航 兼容IE6(没有折叠效果), IE7 IE8及以上 Firefox,Chrome等主流浏览器<br>
+                Design by 夏の寒风 QQ:490720430
+            </p>
         </div>
     </div>
     <!--yourweb_container end-->
@@ -985,29 +1130,13 @@ body{font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;color:#33
 
     <div style="width: 300px; height: 250px; margin: 20px auto;">
         <script type="text/javascript">
-            alimama_pid="mm_15607527_3320120_10797841";
-            alimama_width=300;
-            alimama_height=250;
+            alimama_pid = "mm_15607527_3320120_10797841";
+            alimama_width = 300;
+            alimama_height = 250;
 </script>
         <script type="text/javascript" src="/scripts/tmail.inf.js"></script>
-        
+
     </div>
-
-
-
-
-
-
-
-
-
-
-    <!--百度流量统计代码 只能对本网站流量统计 和特效无关，请不好拷贝-->
-    <script type="text/javascript">
-        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc082905b96decbbbf721b0f5daf8b225' type='text/javascript'%3E%3C/script%3E"));
-</script>
-    <script type="text/javascript" src=" http://hm.baidu.com/h.js?c082905b96decbbbf721b0f5daf8b225"></script>
 
 </body>
 </html>

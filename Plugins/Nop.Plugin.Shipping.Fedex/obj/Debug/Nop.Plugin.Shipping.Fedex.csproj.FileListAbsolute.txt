@@ -2,6 +2,5 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.Fedex\Description
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll.config
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.pdb
-C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csprojResolveAssemblyReference.cache
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.pdb

@@ -1,6 +1,0 @@
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\bin\sitemap.config
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\bin\Nop.Admin.dll
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\bin\Nop.Admin.pdb
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojResolveAssemblyReference.cache
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
-C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb

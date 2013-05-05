@@ -1,6 +1,6 @@
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Description.txt
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.dll
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.pdb
-C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.csprojResolveAssemblyReference.cache
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.csprojResolveAssemblyReference.cache

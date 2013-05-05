@@ -1313,6 +1313,7 @@
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.10.0.js" />
     <Content Include="Scripts\jquery-ui-1.10.0.min.js" />
+    <Content Include="Scripts\jquery.1.4.2-min.js" />
     <Content Include="Scripts\jquery.mobile-1.2.0.js" />
     <Content Include="Scripts\jquery.mobile-1.2.0.min.js" />
     <Content Include="Scripts\jquery.tmailsider.js" />
@@ -1325,6 +1326,8 @@
     <Content Include="Scripts\public.onepagecheckout.js" />
     <Content Include="Scripts\public.common.js" />
     <Content Include="Scripts\slimbox2.js" />
+    <Content Include="Scripts\tmail.inf.js" />
+    <Content Include="Scripts\tmail.main.js" />
     <Content Include="tdefault.html" />
     <Content Include="Themes\DefaultClean\Content\hzStyles.css" />
     <Content Include="Themes\DefaultClean\Content\hzStyles.rtl.css" />
@@ -1365,6 +1368,7 @@
     <Content Include="Themes\DefaultClean\Content\images\star-x-inactive.gif" />
     <Content Include="Themes\DefaultClean\Content\styles.css" />
     <Content Include="Themes\DefaultClean\Content\styles.rtl.css" />
+    <Content Include="Themes\jquery.tmailsider.css" />
     <Content Include="Themes\Mobile\Content\images\ajax-loader.gif" />
     <Content Include="Themes\Mobile\Content\images\ico-forum-post-high.gif" />
     <Content Include="Themes\Mobile\Content\images\ico-forum-post.gif" />
@@ -1764,7 +1768,6 @@
     <Content Include="Views\Vendor\VendorNavigation.Mobile.cshtml" />
     <Content Include="Views\Vendor\VendorTemplate.ProductsInGridOrLines.cshtml" />
     <Content Include="Views\Vendor\VendorTemplate.ProductsInGridOrLines.Mobile.cshtml" />
-    <Content Include="Views\Home\副本 Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
