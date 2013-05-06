@@ -42,7 +42,7 @@ namespace Nop.Custom.Handles
 
             var dataProviderSettings = settings;
 
-            NopObjectContext dbContext = new NopObjectContext(ConfigurationManager.ConnectionStrings["serviceDB"].ToString());
+            NopObjectContext dbContext = new NopObjectContext(settings.DataConnectionString);
             EfRepository<Customer> repository = new Data.EfRepository<Customer>(dbContext);
 
             Customer customer = repository.GetById(customerId);

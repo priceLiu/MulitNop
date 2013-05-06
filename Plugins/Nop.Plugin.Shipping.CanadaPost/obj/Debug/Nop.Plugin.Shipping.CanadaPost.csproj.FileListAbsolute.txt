@@ -3,4 +3,3 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Pl
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
-C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
