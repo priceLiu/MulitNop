@@ -28,7 +28,7 @@ namespace Nop.Custom.Handles
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
-            string result = GetCustomerJson(1);
+            string result = GetCustomerJson(Convert.ToInt16(context.Request.QueryString["customerId"]));
             context.Response.Write(result);
         }
 
@@ -46,7 +46,6 @@ namespace Nop.Custom.Handles
             EfRepository<Customer> repository = new Data.EfRepository<Customer>(dbContext);
 
             Customer customer = repository.GetById(customerId);
-
 
             IEnumerable<Customer> customers = repository.Table;
 
