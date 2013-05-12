@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Autofac.dll">
+      <publishTime>05/07/2013 07:42:54</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Mvc.dll">
+      <publishTime>05/07/2013 07:42:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/07/2013 07:42:54</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>05/07/2013 07:42:54</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>05/07/2013 07:42:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/07/2013 07:44:02</publishTime>
+    </File>
+    <File Include="bin/Nop.Core.dll">
+      <publishTime>05/11/2013 22:15:11</publishTime>
+    </File>
+    <File Include="bin/Nop.Custom.Handles.dll">
+      <publishTime>05/11/2013 22:15:16</publishTime>
+    </File>
+    <File Include="bin/Nop.Data.dll">
+      <publishTime>05/11/2013 22:15:11</publishTime>
+    </File>
+    <File Include="bin/Nop.Services.dll">
+      <publishTime>05/11/2013 22:15:13</publishTime>
+    </File>
+    <File Include="bin/Nop.Services.XmlSerializers.dll">
+      <publishTime>05/11/2013 22:15:15</publishTime>
+    </File>
+    <File Include="bin/Nop.Web.Custom.Handles.dll">
+      <publishTime>05/11/2013 22:15:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>05/07/2013 07:44:02</publishTime>
+    </File>
+    <File Include="Data.json">
+      <publishTime>05/11/2013 21:05:34</publishTime>
+    </File>
+    <File Include="T1.aspx">
+      <publishTime>05/07/2013 07:44:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/11/2013 22:15:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

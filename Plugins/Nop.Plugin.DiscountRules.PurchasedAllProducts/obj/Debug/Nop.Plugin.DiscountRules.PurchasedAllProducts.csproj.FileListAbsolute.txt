@@ -3,3 +3,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedAll
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.PurchasedAllProducts\Nop.Plugin.DiscountRules.PurchasedAllProducts.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.PurchasedAllProducts\obj\Debug\Nop.Plugin.DiscountRules.PurchasedAllProducts.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.PurchasedAllProducts\obj\Debug\Nop.Plugin.DiscountRules.PurchasedAllProducts.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.PurchasedAllProducts\obj\Debug\Nop.Plugin.DiscountRules.PurchasedAllProducts.csprojResolveAssemblyReference.cache

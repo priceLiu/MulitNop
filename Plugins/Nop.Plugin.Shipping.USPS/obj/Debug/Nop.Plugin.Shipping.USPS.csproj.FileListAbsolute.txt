@@ -3,3 +3,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.S
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache

@@ -3,3 +3,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\N
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.Plugin.Payments.CheckMoneyOrder.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache

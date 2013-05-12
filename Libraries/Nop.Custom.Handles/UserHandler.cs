@@ -51,11 +51,67 @@ namespace Nop.Custom.Handles
 
             JsonSerializerSettings jsonSettings = new JsonSerializerSettings();
             jsonSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-            string result = JsonConvert.SerializeObject(new { Customer = customer }, Formatting.Indented, jsonSettings);
+
+            CustomerResult resultObj = new CustomerResult{
+                Guid = customer.CustomerGuid,
+                UserName = customer.Username,
+                Email = customer.Email,
+                Password = customer.Password,
+                IsSystemAccount = customer.IsSystemAccount,
+                DiscountCouponCode = customer.DiscountCouponCode,
+                GiftCardCouponCodes = customer.GiftCardCouponCodes
+            };
+
+            string result = JsonConvert.SerializeObject(new { Customer = resultObj }, Formatting.None, jsonSettings);
 
             return result;
         }
 
         #endregion
+    }
+
+    public class CustomerResult
+    {
+        public Guid Guid
+        {
+            get;
+            set;
+        }
+
+        public string UserName
+        {
+            get;
+            set;
+        }
+
+        public string Email
+        {
+            get;
+            set;
+        }
+
+        public string Password
+        {
+            get;
+            set;
+        }
+
+        public bool IsSystemAccount
+        {
+            get;
+            set;
+        }
+
+        public string DiscountCouponCode
+        {
+            get;
+            set;
+        }
+
+        public string GiftCardCouponCodes
+        {
+            get;
+            set;
+        }
     }
 }

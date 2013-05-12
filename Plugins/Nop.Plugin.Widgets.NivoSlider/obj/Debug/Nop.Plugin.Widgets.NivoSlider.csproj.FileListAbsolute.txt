@@ -24,3 +24,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plu
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache

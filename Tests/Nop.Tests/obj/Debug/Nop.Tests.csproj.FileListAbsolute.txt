@@ -1,0 +1,8 @@
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+C:\doing\GitHub\MulitNop\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb

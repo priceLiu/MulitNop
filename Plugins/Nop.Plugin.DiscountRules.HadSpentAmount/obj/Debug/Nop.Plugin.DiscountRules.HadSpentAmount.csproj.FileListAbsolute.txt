@@ -3,3 +3,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmou
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache

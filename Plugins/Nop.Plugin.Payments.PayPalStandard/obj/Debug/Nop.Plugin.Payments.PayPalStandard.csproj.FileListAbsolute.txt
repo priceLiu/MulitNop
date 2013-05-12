@@ -3,3 +3,4 @@ C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\No
 C:\doing\GitHub\MulitNop\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
 C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
+C:\doing\GitHub\MulitNop\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csprojResolveAssemblyReference.cache
