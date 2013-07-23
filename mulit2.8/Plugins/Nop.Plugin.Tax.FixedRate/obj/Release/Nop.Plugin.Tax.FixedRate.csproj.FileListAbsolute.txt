@@ -1,0 +1,4 @@
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Tax.FixedRate\Description.txt
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Tax.FixedRate\obj\Release\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Tax.FixedRate\obj\Release\Nop.Plugin.Tax.FixedRate.dll

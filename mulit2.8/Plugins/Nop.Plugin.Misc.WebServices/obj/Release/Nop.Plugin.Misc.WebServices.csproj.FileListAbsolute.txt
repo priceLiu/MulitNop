@@ -1,0 +1,6 @@
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Misc.WebServices\Description.txt
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\NopService.svc
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Misc.WebServices\Remote\web.config
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Misc.WebServices\Nop.Plugin.Misc.WebServices.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Misc.WebServices\obj\Release\Nop.Plugin.Misc.WebServices.dll
+C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Misc.WebServices\obj\Release\Nop.Plugin.Misc.WebServices.csprojResolveAssemblyReference.cache
