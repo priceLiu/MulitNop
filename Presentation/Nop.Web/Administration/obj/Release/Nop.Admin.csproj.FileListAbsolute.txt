@@ -1,4 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\bin\sitemap.config
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\bin\Nop.Admin.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Administration\obj\Release\Nop.Admin.csprojResolveAssemblyReference.cache
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Administration\obj\Release\Nop.Admin.dll

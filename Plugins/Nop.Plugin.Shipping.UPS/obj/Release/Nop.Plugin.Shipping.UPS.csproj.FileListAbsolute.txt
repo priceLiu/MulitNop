@@ -1,7 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.XmlSerializers.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Release\Nop.Plugin.Shipping.UPS.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Release\Nop.Plugin.Shipping.UPS.XmlSerializers.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Release\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache

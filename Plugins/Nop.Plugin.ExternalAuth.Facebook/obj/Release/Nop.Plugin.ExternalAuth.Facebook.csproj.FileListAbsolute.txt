@@ -1,6 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Release\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Release\Nop.Plugin.ExternalAuth.Facebook.dll

@@ -1,4 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Release\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Release\Nop.Plugin.Shipping.FixedRateShipping.dll

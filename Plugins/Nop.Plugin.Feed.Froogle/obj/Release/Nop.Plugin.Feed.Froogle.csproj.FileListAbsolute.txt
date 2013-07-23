@@ -1,5 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Release\Nop.Plugin.Feed.Froogle.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Release\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache

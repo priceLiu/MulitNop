@@ -1,3 +1,0 @@
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
-C:\doing\nml7-521e51f95615\nml7_521e51f95615\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Release\Nop.Plugin.DiscountRules.HasOneProduct.dll
